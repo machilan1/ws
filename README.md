@@ -38,9 +38,9 @@ Here are some scenarios that you might want to rest the app.
 
 - Experiment with altering api and database schema get messed up.
 - Apply migrations in an incorrect order and database schema get messed up.
-- You get messed up.
+- Unknowingly delete Docker volume and all data and schemas are gone.
 
-If anything anything goes wrong execute the following command in cli.
+So if anything goes wrong please execute the following command in cli.
 
 > `docker-compose down --volumes`  
 > `docker-compose up`
