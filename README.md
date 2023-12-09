@@ -9,6 +9,7 @@ Create .env file in root directory with following format.
 > DB_USER=postgres  
 > DB_PSW =123456  
 > DB_PORT=5432
+> API_URL=3000
 
 These are just arbitrary values I chose for local development and they are not supposed to be used in a production environment.
 
