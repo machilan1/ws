@@ -52,7 +52,7 @@ So if there's any problem related to the database, please execute the following 
 
 ### 1. Try using "Introspect / Pull" functionality from Drizzle Kit.
 
-- Just give it a try and see what it dose.
+- Just give it a try and see what it does.
 
 ### 2. Create an ActorService with following methods.
 
@@ -64,7 +64,7 @@ So if there's any problem related to the database, please execute the following 
 #### and these are extra mehtods
 
 - findMorgans( ) - Returns actors whose first name is MORGAN.
-- catlizeMorgan( ) - Change an actor's first name to "貓貓".
+- catlizeMorgan( ) - Change an actor's first name to "貓貓" if he/she has MORGAN as first name.
 - removeWholeFamily( lastName : string) - Delete all actors that have that last name.
 - mostCommonLastName( ) - Returns the most used last name and exactly how many actors have that last name . ( eg. { lastName: "ELOHSSA" ,counts : 4 } )
 
