@@ -32,7 +32,7 @@ Just to give you some context. This is a database about a video tape rental serv
 
 Source : https://github.com/morenoh149/postgresDBSamples/tree/master/pagila-0.10.1
 
-## Reset ( You can always star over again)
+## Reset ( You might need this once in a while)
 
 Here are some scenarios that you might want to rest the app.
 
