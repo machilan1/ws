@@ -12,7 +12,7 @@ Create .env file in root directory with following format.
 
 These are just arbitrary values I chose for local development and they are not supposed to be used in a production environment.
 
-Make sure **.env** is listed in **.gitignore**
+Make sure **.env** and **/postgres** is listed in **.gitignore**
 
 ## Dependencies
 
