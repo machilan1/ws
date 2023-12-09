@@ -40,10 +40,14 @@ Here are some scenarios that you might want to rest the app.
 - Apply migrations in an incorrect order and database schema get messed up.
 - Unknowingly delete Docker volume and all data and schemas are gone.
 
-So if there's any problem related to the database, please execute the following commands in cli.
+So if there's any problem related to the database, please follow below steps one by ony in order to reclaim your sanity.
 
-> `docker-compose down --volumes`  
-> `docker-compose up`
+1. Delete **postgres** folder in root directory
+
+2. Run this in cli.
+   > `docker-compose down --volumes`
+3. Then this.
+   > `docker-compose up`
 
 <br/>
 <br/>
