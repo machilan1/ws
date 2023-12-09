@@ -10,7 +10,7 @@ Create .env file in root directory with following format.
 > DB_PSW =123456  
 > DB_PORT=5432
 
-These are just arbitrary values I choose for local developing and they are not supposed to be used in a production project.
+These are just arbitrary values I chose for local development and they are not supposed to be used in a production environment.
 
 Make sure **.env** is listed in **.gitignore**
 
@@ -40,7 +40,7 @@ Here are some scenarios that you might want to rest the app.
 - Apply migrations in an incorrect order and database schema get messed up.
 - Unknowingly delete Docker volume and all data and schemas are gone.
 
-So if anything goes wrong please execute the following command in cli.
+So if there's any problem related to the database, please execute the following commands in cli.
 
 > `docker-compose down --volumes`  
 > `docker-compose up`
