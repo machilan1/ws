@@ -58,14 +58,14 @@ So if there's any problem related to the database, please follow below steps one
 
 - Just give it a try and see what it does.
 
-### 2. Create an ActorService with following methods.
+### 2. Create an ActorService with following methods using Drizzle.
 
 - getAll( ) - Returns all actors.
 - getOne( id : number ) - Returns an actor with specified id.
 - update( id : number ) - Updates an actor with specified id.
 - delete( id : number ) - Deletes an actor with specified id.
 
-#### and these are extra mehtods
+#### and these are extra method
 
 - findMorgans( ) - Returns actors whose first name is MORGAN.
 - catlizeMorgan( ) - Change an actor's first name to "貓貓" if he/she has MORGAN as first name.
