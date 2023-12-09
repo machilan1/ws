@@ -24,16 +24,21 @@ Install dependencies with npm.
 
 Execute following commands in cli.
 
+Schema will be created and seeds will run automatically.
+
 > `docker-compose up`
 
-Schema and seeds will run automatically.
+Just to give you some context. This is a database about a video tape rental service so your will expect to see entities like Actors, Films, Customers and so ...
 
-## Reset
+Source : https://github.com/morenoh149/postgresDBSamples/tree/master/pagila-0.10.1
 
-Here are some scenarios that one might possibly have to rest the app.
+## Reset ( You can always star over again)
 
-- Mess up schemas after experimenting things in schema.ts
-- Schema parser generates faulty code.
+Here are some scenarios that you might want to rest the app.
+
+- Experiment with altering api and database schema get messed up.
+- Apply migrations in an incorrect order and database schema get messed up.
+- You get messed up.
 
 If anything anything goes wrong execute the following command in cli.
 
