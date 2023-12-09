@@ -75,4 +75,4 @@ So if there's any problem related to the database, please follow below steps one
 
 ### 3. Design an ActorController that
 
-- Provides endpoints for frontend developers to do CRUD for Actors ( one of many ).
+- Provides endpoints for frontend developers to do CRUD for Actors ( one and many ).
